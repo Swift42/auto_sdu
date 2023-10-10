@@ -22,7 +22,7 @@ Wait until the scan cooldown is done and then call the bookmark once.
 After some seconds the script "presses" the "SCAN ALL" button and then again every minute.
 If you want you can minimize the window and check the status now and then.
 To stop the process or if something goes wrong, just reload the page. This will stop/remove the bookmarklet.
-Also if the script doesn't find the "SCAN ALL" button, it will stop automatically.
+Also if the script doesn't find the "SCAN ALL" button, it will stop automatically (and outputs "Stopping loop" to the JS console).
 
 The script comes without any warranty.
 If you want to change to interval of 60 seconds to some other value, just change "60000" (=60 seconds in milliseconds) to some other value on this line:
