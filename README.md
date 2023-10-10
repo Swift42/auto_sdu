@@ -1,7 +1,7 @@
 # auto_sdu
 Sage Labs: Automatic SDU scanning with just your browser
 
-Written by Swift42 for the Star Atlas Community, made for Chrome/Windows
+Written by Swift42 for the Star Atlas Community, made for Chrome/Windows.
 The use is currently being permitted on a trial basis (according to the Star Atlas team, see the announcement).
 
 How to install:
