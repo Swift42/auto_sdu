@@ -25,3 +25,5 @@ To stop the process or if something goes wrong, just reload the page. This will 
 Also if the script doesn't find the "SCAN ALL" button, it will stop automatically.
 
 The script comes without any warranty.
+If you want to change to interval of 60 seconds to some other value, just change "60000" (=60 seconds in milliseconds) to some other value on this line:
+window.setTimeout("window.myloopfunc()",60000);
