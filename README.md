@@ -14,7 +14,7 @@ Copy the text from bookmarklet.js, create a bookmark in your new Chrome profile 
 
 How to use:
 The script relies on Phantom's "Auto confirm". Normally you can only enable auto-confirm for 2 hours, but you can trick Phantom to do a much longer time period: Close the Phantom window. Right-click the clock in the Windows taskbar and select "Change date/time". Disable the automatic clock sync and set the time manually. Set a date in the future (e.g. 1 day in the future). Wait 1 minute, so Phantom accepts the new time. Open the Phantom window, settings, connected apps, labs.staratlas.com, set auto-confirm to active. Close the Phantom window.
-Enable automatic clock sync again, wait one minute (so Phantom gets the new time), open Phantom again and check if Phantom has set the auto-confirm expiration to the desired time in the future.
+Enable automatic clock sync again, wait one minute (so Phantom gets the new/current time), open Phantom again and check if Phantom has set the auto-confirm expiration to the desired time in the future.
 
 Move the fleets to the target locations, exit warp and go to "Dashboard -> Sector Survey".
 Do the first scan manually ("Scan all") to check if Phantom wants your wallet password and to finally activate the auto-confirm.
