@@ -2,7 +2,7 @@
 Sage Labs: Automatic SDU scanning with just your browser
 
 Written by Swift42 for the Star Atlas Community, made for Chrome/Windows.
-The use is currently being permitted on a trial basis (according to the Star Atlas team, see the announcement).
+The use is currently being permitted on a trial basis (according to the Star Atlas team, see the discord announcement).
 
 How to install:
 To be able to still play with your main fleet while you do the scanning, I would recommend to create  a new Chrome profile and install a fresh Phantom extension in the new profile.
