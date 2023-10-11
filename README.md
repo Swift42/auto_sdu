@@ -27,3 +27,6 @@ Also if the script doesn't find the "SCAN ALL" button, it will stop automaticall
 The script comes without any warranty.
 If you want to change to interval of 60 seconds to some other value, just change "60000" (=60 seconds in milliseconds) to some other value on this line:
 window.setTimeout("window.myloopfunc()",60000);
+
+Notes:
+Of course it would be easier if Phantom would allow us to set the auto-confirm time by our own. Please upvote my feature request here: https://phantom.canny.io/feature-requests/p/increase-the-duration-of-auto-confirm-or-let-us-set-it-manually
