@@ -5,8 +5,8 @@ Written by Swift42 for the Star Atlas Community, made for Chrome/Windows.
 The use is currently being permitted on a trial basis (according to the Star Atlas team, see the discord announcement).
 
 How to install:
-To be able to still play with your main fleet while you do the scanning, I would recommend to create a new Chrome profile and install a fresh Phantom extension in the new profile.
-Then create a new wallet, transfer the needed ships to this wallet, start Sage Labs and connect Phantom to Sage Labs. Form your fleets.
+To be able to still play with your main fleet while you do the scanning, I would recommend to create a new Chrome profile and install a fresh Phantom/Solflare extension in the new profile.
+Then create a new wallet, transfer the needed ships to this wallet, start Sage Labs and connect the wallet to Sage Labs. Form your fleets.
 Disable the Chrome memory saver here: chrome://settings/performance
 
 Copy the text from bookmarklet.js, create a bookmark in your new Chrome profile and paste the text as the URL.
