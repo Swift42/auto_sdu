@@ -27,7 +27,7 @@ javascript: (() => {
 				} 
 				else {
 					console.log("["+(new Date).toJSON()+"] "+fleetName+" has an unchanged number of "+sdus+" sdus, scanning ...");
-					setTimeout(function(el) { console.log("["+(new Date).toJSON()+"] Pressing scan button for "+fleetName); triggerMouseEvent (el.parentElement, "click"); }.bind(this,el),idx*window.autosdu_pauseBetweenFleets);
+					setTimeout(function(el,fleetName) { console.log("["+(new Date).toJSON()+"] Pressing scan button for "+fleetName); triggerMouseEvent (el.parentElement, "click"); }.bind(this,el,fleetName),idx*window.autosdu_pauseBetweenFleets);
 				}
 				window.sduPerFleet[fleetName]=sdus;				
 				el = els.iterateNext();
