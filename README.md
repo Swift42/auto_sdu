@@ -11,7 +11,7 @@ Disable the Chrome memory saver here: chrome://settings/performance
 
 Copy the text from bookmarklet.js, create a bookmark in your new Chrome profile and paste the text as the URL.
 The default values are: 62s for each scan loop and 3s pause between each fleet (to give Phantom/Solflare enough time to execute the scan transaction).
-If you have a slow browser/PC or if you use Phantom instead of Solflare, you may need to increase the values (see the first two lines of the script, 62000 and 3000, that's 62s and 3s in milliseconds). E.g. try to set it to 66000 and 4000.
+If you have a slow browser/PC or if you use Phantom instead of Solflare or if you use ships with a long scan cooldown, you may need to increase the values (see the first two lines of the script, 62000 and 3000, that's 62s and 3s in milliseconds). E.g. try to set it to 68000 and 4000.
 
 How to use (Solflare):
 Solflare is the easiest and fastest method, because Solflare's auto-confirm doesn't expire.
