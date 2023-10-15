@@ -1,5 +1,5 @@
 javascript: (() => {
-	window.autosdu_looptime=65000;
+	window.autosdu_looptime=64000;
 	window.autosdu_pauseBetweenFleets=3000;
 	function triggerMouseEvent (node, eventType) {
 		var clickEvent = document.createEvent ('MouseEvents');
