@@ -19,7 +19,7 @@ When you connect to Sage Labs or do the first transaction, just enable auto-conf
 Sage is whitelisted, so you don't need a burner wallet. Each wallet can enable the auto-confirm for Sage.
 
 How to use (Phantom):
-Normally you can only enable auto-confirm for 2 hours in Phantom, but you can trick Phantom to do a much longer time period: Close the Phantom window. Right-click the clock in the Windows taskbar and select "Change date/time". Disable the automatic clock sync and set the time manually. Set a date in the future (e.g. 1 day in the future). Wait 1 minute, so Phantom accepts the new time. Open the Phantom window, settings, connected apps, labs.staratlas.com, set auto-confirm to active. Close the Phantom window.
+Normally you can only enable auto-confirm for 2 hours in Phantom. In case you need a longer time period you can trick Phantom to do it: Close the Phantom window. Right-click the clock in the Windows taskbar and select "Change date/time". Disable the automatic clock sync and set the time manually. Set a date in the future (e.g. 1 day in the future). Wait 1 minute, so Phantom accepts the new time. Open the Phantom window, settings, connected apps, labs.staratlas.com, set auto-confirm to active. Close the Phantom window.
 Enable automatic clock sync again, wait one minute (so Phantom gets the new/current time), open Phantom again and check if Phantom has set the auto-confirm expiration to the desired time in the future.
 
 Use the bookmarklet:
