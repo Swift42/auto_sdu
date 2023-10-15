@@ -26,7 +26,7 @@ Use the bookmarklet:
 Move the fleets to the target locations, exit warp and go to "Dashboard -> Sector Survey".
 Do the first scan manually ("Scan all") to check if Phantom/Solflare wants your wallet password and to finally activate the auto-confirm.
 Wait until the scan cooldown is done and then call the bookmark once.
-After some seconds the script "presses" the scan button of each fleet. After the loop time (default 62 seconds) it starts again.
+After some seconds the script "presses" the scan button of each fleet. After the loop time (default 64 seconds) it starts again.
 The script tracks the amount of SDUs per fleet. If a SDU was found, the corresponding fleet skips a scan to save toolkits (because if a SDU was found, the cooldown of the sector is 2 minutes).
 To stop the process or if something goes wrong, just reload the page. This will stop/remove the bookmarklet.
 Also if the script doesn't find a scan button, it will stop automatically (and shows an alert window).
