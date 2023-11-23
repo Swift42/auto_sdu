@@ -14,7 +14,7 @@ javascript: (() => {
 	window.autosdu_worker.postMessage('start');		
 	window.sduPerFleet=[];
 	window.autosdu_worker.onmessage=function(e) {
-		var els = document.evaluate("//span[contains(., 'Start Scan')]", document, null, XPathResult.ANY_TYPE, null );
+		var els = document.evaluate("//td/button/span[starts-with(., 'Scan ')]", document, null, XPathResult.ANY_TYPE, null );
 		var el = els.iterateNext();
 		if((typeof el == 'undefined') || el==null) { alert('No scan button found, stopping bookmarklet.'); window.autosdu_worker.terminate(); }
 		else {
